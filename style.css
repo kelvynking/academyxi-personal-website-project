@@ -1,7 +1,13 @@
-body {
-    background: #000000;
+.wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    color: #808080;
 }
 
-h1 {
-    color: #ffd700;
+.wrapper h1 {
+    color: #000000;
+}
+
+#description h3, h5 {
+    color: #808000
 }
