@@ -1,1 +1,1 @@
-# academixi-personal-website-project
+# academyxi-personal-website-project
