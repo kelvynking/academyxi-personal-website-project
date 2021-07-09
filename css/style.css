@@ -73,9 +73,13 @@ section {
     width: 150px;
     height: 150px;
     border: 3px #808080 solid;
-    margin: 20px 125px;
+    margin: 20px 80px;
 }
 
 #logo_links .fimg:hover {
     border: 3px #00008b solid;
+}
+
+a {
+    color: #808000;
 }
