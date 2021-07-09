@@ -2,6 +2,32 @@
     font-family: "Lobster-Regular" ;
     src: url(font/Lobster-Regular.ttf);
 }
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #808000;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 135px;
+}
+
+li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
 .wrapper {
     width: 100%;
     background-color: #ffffff;
@@ -77,7 +103,7 @@ section {
 }
 
 #logo_links .fimg:hover {
-    border: 3px #00008b solid;
+    border: 3px #000000 solid;
 }
 
 a {
