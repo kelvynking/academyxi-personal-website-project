@@ -52,11 +52,25 @@ section {
     height: 150%;
 }
 
-#footer {
+#logo_links {
     clear: both;
+    border-top: 5px #000000 solid;
+}
+
+#logo_links h3 {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 .fimg {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border: 3px #808080 solid;
+    margin: 20px 125px;
+}
+
+#logo_links .fimg:hover {
+    border: 3px #00008b solid;
 }
