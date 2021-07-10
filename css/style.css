@@ -3,7 +3,7 @@
     src: url(font/Lobster-Regular.ttf);
 }
 
-.nav ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,6 +67,15 @@ section {
     padding-left: 20px;
 }
 
+a {
+    color: #808000;
+}
+
+.back_top {
+    color: #000000;
+    text-decoration: underline;
+} 
+
 a:hover {
     color: #8b008b;
     text-decoration: underline;
@@ -110,10 +119,6 @@ a:hover {
 
 #logo_links .fimg:hover {
     border: 3px #000000 solid;
-}
-
-a {
-    color: #808000;
 }
 
 footer {
