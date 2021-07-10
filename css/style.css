@@ -50,16 +50,25 @@ section {
     text-align:center;
 }
 
+#main {
+    width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
 #pictures {
     float: left;
     width: 50%;
     background: #808080;
+    flex: 1;
 }
 
 #about {
     float: left;
     width: 50%;
     background: black;
+    overflow: auto;
 }
 
 #about p {
@@ -100,7 +109,6 @@ a:hover {
 
 #logo_links {
     clear: both;
-    /* border-top: 5px #000000 solid; */
 }
 
 #logo_links h3 {
